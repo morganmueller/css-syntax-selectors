@@ -1,21 +1,46 @@
+html {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: indigo;
+}
+
 body {
-  color: brown;
+  color: red;
+  position:absolute;
+  top:0;
+  right:0;
 }
 
 h1 {
-  color: red;
+  color: white;
+  font-weight:bolder;
+  font-style:italic;
+  text-align:center;
+  text-decoration:overline;
+  position:fixed;
+}
+
+h2{
+  text-align: right;
+}
+
+h3 {
+  background-color: yellow;
 }
 
 .quote {
-  color: gray;
+  color: white;
+  font-style:italic;
+  opacity:.5;
 }
 
 .quote.narrator {
-  color: black;
+  color: pink;
 }
 
 #intro p {
-  color: green;
+  color: white;
+  border-style: dotted;
+  border-color: yellow;
 }
 
 .super-important-omg {
