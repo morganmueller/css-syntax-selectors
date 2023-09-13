@@ -1,21 +1,22 @@
 body {
-  color: brown;
+  color: red;
+  background-color: teal;
 }
 
 h1 {
-  color: red;
+  color: brown;
 }
 
 .quote {
-  color: gray;
+  color: purple;
 }
 
 .quote.narrator {
-  color: black;
+  color: pink;
 }
 
 #intro p {
-  color: green;
+  color: yellow;
 }
 
 .super-important-omg {
