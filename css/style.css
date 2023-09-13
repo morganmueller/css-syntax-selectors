@@ -1,24 +1,28 @@
 body {
-  color: brown;
-}
-
-h1 {
   color: red;
 }
 
+h1 {
+  color: brown;
+  background: pink;
+}
+p{
+  transition: transform .7s ease-in-out;
+}p:hover{
+  transform: rotate(360deg);
+  scale: (3.0);
+  transition: 0.2s;
+}
+
+#intro p{
+  color:yellow;
+}
+
+
 .quote {
-  color: gray;
+  color: purple;
 }
 
 .quote.narrator {
-  color: black;
-}
-
-#intro p {
-  color: green;
-}
-
-.super-important-omg {
-  font-size: 20px;
-  background-color: yellow;
+  color: pink;
 }
